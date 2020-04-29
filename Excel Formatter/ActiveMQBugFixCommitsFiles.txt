@@ -1,0 +1,241 @@
+ activemq-web/src/main/java/org/apache/activemq/web/WebClient.java,
+ pom.xml,
+ activemq-broker/src/main/java/org/apache/activemq/broker/jmx/BrokerView.java, activemq-broker/src/main/java/org/apache/activemq/broker/jmx/BrokerViewMBean.java
+ pom.xml,
+ activemq-jms-pool/src/main/java/org/apache/activemq/jms/pool/ConnectionPool.java, activemq-jms-pool/src/main/java/org/apache/activemq/jms/pool/PooledConnectionFactory.java
+ pom.xml,
+ activemq-client/src/main/java/org/apache/activemq/ActiveMQPrefetchPolicy.java, activemq-ra/src/main/java/org/apache/activemq/ra/ActiveMQConnectionRequestInfo.java, activemq-ra/src/main/java/org/apache/activemq/ra/ActiveMQConnectionSupport.java, activemq-ra/src/main/java/org/apache/activemq/ra/ActiveMQManagedConnectionFactory.java
+ activemq-web/src/main/java/org/apache/activemq/web/BrokerFacadeSupport.java, activemq-web/src/main/java/org/apache/activemq/web/util/ExceptionUtils.java
+ pom.xml,
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpSupport.java,
+ activemq-jms-pool/src/main/java/org/apache/activemq/jms/pool/ConnectionPool.java,
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpProtocolConverter.java,
+ activemq-client/src/main/java/org/apache/activemq/transport/discovery/multicast/MulticastDiscoveryAgent.java,
+ pom.xml,
+ assembly/src/release/bin/activemq,
+ activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/LevelDBStore.scala, activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/replicated/SlaveLevelDBStore.scala
+ activemq-jdbc-store/src/main/java/org/apache/activemq/store/jdbc/JDBCPersistenceAdapter.java,
+ activemq-mqtt/pom.xml,
+ activemq-mqtt/pom.xml,
+ pom.xml,
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpProtocolConverter.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpWireFormat.java
+ activemq-broker/src/main/java/org/apache/activemq/broker/region/cursors/AbstractStoreCursor.java, activemq-broker/src/main/java/org/apache/activemq/broker/region/cursors/TopicStorePrefetch.java
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpProtocolConverter.java,
+ activemq-broker/src/main/java/org/apache/activemq/broker/region/cursors/AbstractStoreCursor.java,
+ activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/disk/index/BTreeNode.java,
+ activemq-mqtt/pom.xml, pom.xml
+ activemq-broker/src/main/java/org/apache/activemq/broker/region/Queue.java,
+ activemq-rar/pom.xml, activemq-rar/src/main/rar/broker-config.xml
+ activemq-mqtt/src/main/java/org/apache/activemq/transport/mqtt/MQTTProtocolConverter.java, activemq-mqtt/src/main/java/org/apache/activemq/transport/mqtt/MQTTProtocolSupport.java, activemq-mqtt/src/main/java/org/apache/activemq/transport/mqtt/MQTTSubscription.java, activemq-mqtt/src/main/java/org/apache/activemq/transport/mqtt/ResponseHandler.java
+ activemq-client/src/main/java/org/apache/activemq/TransactionContext.java, activemq-ra/src/main/java/org/apache/activemq/ra/ActiveMQManagedConnection.java, activemq-ra/src/main/java/org/apache/activemq/ra/ActiveMQResourceAdapter.java, activemq-ra/src/main/java/org/apache/activemq/ra/LocalAndXATransaction.java
+ pom.xml,
+ activemq-broker/src/main/java/org/apache/activemq/network/jms/JmsConnector.java,
+ activemq-jms-pool/src/main/java/org/apache/activemq/jms/pool/PooledConnectionFactory.java,
+ pom.xml,
+ pom.xml,
+ activemq-broker/src/main/java/org/apache/activemq/broker/TransportConnection.java,
+ activemq-web-console/pom.xml,
+ activemq-all/pom.xml,
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AMQPProtocolDiscriminator.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AMQPSslTransportFactory.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/ActiveMQJMSVendor.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpHeader.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpNioSslTransport.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpNioSslTransportFactory.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpNioTransport.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpNioTransportFactory.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpNioTransportHelper.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpProtocolConverter.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpProtocolException.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpSupport.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpTransport.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpTransportFactory.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpTransportFilter.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpWireFormatFactory.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/ResponseHandler.java,
+ activemq-mqtt/src/main/java/org/apache/activemq/transport/mqtt/MQTTProtocolConverter.java,
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpProtocolConverter.java,
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpProtocolConverter.java,
+ pom.xml,
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpProtocolConverter.java,
+ activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/MessageDatabase.java,
+ activemq-broker/src/main/java/org/apache/activemq/transport/TransportLogger.java, activemq-client/src/main/java/org/apache/activemq/ActiveMQConnection.java
+ activemq-client/src/main/java/org/apache/activemq/ActiveMQMessageConsumer.java,
+ activemq-broker/src/main/java/org/apache/activemq/transport/vm/VMTransport.java,
+ activemq-osgi/pom.xml,
+ activemq-ra/src/main/java/org/apache/activemq/ra/ActiveMQResourceAdapter.java,
+ activemq-spring/src/main/resources/META-INF/spring.schemas,
+ activemq-broker/src/main/java/org/apache/activemq/network/DiscoveryNetworkConnector.java,
+ activemq-jdbc-store/src/main/java/org/apache/activemq/store/journal/JournalPersistenceAdapter.java, activemq-jdbc-store/src/main/java/org/apache/activemq/store/journal/JournalPersistenceAdapterFactory.java
+ assembly/src/release/webapps/api/WEB-INF/web.xml,
+ activemq-console/src/main/java/org/apache/activemq/console/command/DecryptCommand.java, activemq-console/src/main/java/org/apache/activemq/console/command/EncryptCommand.java, activemq-console/src/main/java/org/apache/activemq/console/command/ShellCommand.java, activemq-jaas/pom.xml, activemq-jaas/src/main/java/org/apache/activemq/jaas/EncryptionSupport.java, activemq-jaas/src/main/java/org/apache/activemq/jaas/PrincipalProperties.java
+ activemq-jdbc-store/src/main/java/org/apache/activemq/store/jdbc/adapter/DefaultJDBCAdapter.java,
+ activemq-broker/src/main/java/org/apache/activemq/transport/vm/VMTransport.java,
+ activemq-broker/src/main/java/org/apache/activemq/broker/jmx/BrokerView.java, activemq-broker/src/main/java/org/apache/activemq/broker/jmx/BrokerViewMBean.java
+ assembly/src/main/descriptors/common-bin.xml, assembly/src/release/conf/activemq.xml
+ activemq-client/src/main/java/org/apache/activemq/transport/TransportServerThreadSupport.java,
+ activemq-stomp/src/main/java/org/apache/activemq/transport/stomp/ProtocolConverter.java,
+ activemq-client/src/main/java/org/apache/activemq/thread/PooledTaskRunner.java,
+ activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/MessageDatabase.java,
+ pom.xml,
+ pom.xml,
+ activemq-web-console/src/main/webapp/connections.jsp,
+ activemq-mqtt/src/main/java/org/apache/activemq/transport/mqtt/MQTTProtocolConverter.java,
+ activemq-web-console/src/main/webapp/browse.jsp, activemq-web-console/src/main/webapp/message.jsp
+ activemq-mqtt/src/main/java/org/apache/activemq/transport/mqtt/MQTTInactivityMonitor.java,
+ activemq-client/src/main/java/org/apache/activemq/transport/failover/FailoverTransport.java,
+ activemq-web-console/pom.xml,
+ activemq-karaf/src/main/resources/features-core.xml,
+ pom.xml,
+ pom.xml,
+ activemq-client/src/main/java/org/apache/activemq/filter/function/FilterFunction.java,
+ pom.xml,
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpProtocolConverter.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpWireFormat.java
+ activemq-client/src/main/java/org/apache/activemq/ActiveMQPrefetchPolicy.java,
+ activemq-web-console/pom.xml, activemq-web-console/src/main/webapp/WEB-INF/decorators.xml, activemq-web-console/src/main/webapp/WEB-INF/jspf/headertags.jspf, activemq-web-console/src/main/webapp/WEB-INF/web.xml, activemq-web-console/src/main/webapp/decorators/main.jsp, activemq-web-console/src/main/webapp/decorators/panel.jsp, activemq-web-console/src/main/webapp/decorators/printable.jsp,
+ activemq-broker/src/main/java/org/apache/activemq/broker/jmx/BrokerView.java,
+ activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/LevelDBClient.scala, activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/replicated/groups/ClusteredSingleton.scala
+ activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/scheduler/JobSchedulerStoreImpl.java,
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpProtocolConverter.java,
+ activemq-client/src/main/java/org/apache/activemq/util/IdGenerator.java,
+ activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/disk/journal/CallerBufferingDataFileAppender.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/disk/journal/DataFileAccessor.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/disk/journal/DataFileAppender.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/disk/page/PageFile.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/disk/util/DiskBenchmark.java, activemq-kahadb-store/src/main/java/org/apache/activemq/util/RecoverableRandomAccessFile.java
+ assembly/pom.xml, assembly/src/main/descriptors/common-bin.xml, assembly/src/release/bin/activemq, assembly/src/release/bin/activemq-admin, assembly/src/release/bin/activemq-admin.bat, assembly/src/release/bin/activemq.bat, assembly/src/release/bin/linux-x86-32/wrapper.conf, assembly/src/release/bin/linux-x86-64/wrapper.conf, assembly/src/release/bin/macosx/wrapper.conf, assembly/src/release/bin/win32/wrapper.conf, assembly/src/release/bin/win64/wrapper.conf, assembly/src/release/conf/activemq.xml, assembly/src/release/conf/jetty.xml, assembly/src/release/docs/WebConsole-README.txt, assembly/src/release/examples/conf/jetty-demo.xml, assembly/src/release/webapps/index.html, pom.xml,
+ activemq-broker/src/main/java/org/apache/activemq/broker/region/Queue.java,
+ activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/disk/journal/CallerBufferingDataFileAppender.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/disk/journal/DataFileAccessor.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/disk/journal/DataFileAppender.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/disk/page/PageFile.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/disk/util/DiskBenchmark.java, activemq-kahadb-store/src/main/java/org/apache/activemq/util/RecoverableRandomAccessFile.java
+ activemq-all/pom.xml,
+ activemq-karaf/src/main/resources/org.apache.activemq.webconsole.cfg,
+ activemq-karaf/src/main/resources/features-core.xml,
+ pom.xml,
+ activemq-ra/src/main/java/org/apache/activemq/ra/ActiveMQManagedConnection.java,
+ activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/MultiKahaDBPersistenceAdapter.java,
+ pom.xml,
+ activemq-broker/src/main/java/org/apache/activemq/broker/TransportConnector.java, activemq-broker/src/main/java/org/apache/activemq/transport/vm/VMTransportServer.java
+ activemq-spring/pom.xml,
+ activemq-jms-pool/src/main/java/org/apache/activemq/jms/pool/PooledConnectionFactory.java,
+ activemq-jdbc-store/src/main/java/org/apache/activemq/store/jdbc/TransactionContext.java,
+ activemq-camel/src/main/resources/META-INF/services/org/apache/camel/component/activemq.journal,
+ activemq-http/src/main/java/org/apache/activemq/transport/ws/StompSocket.java,
+ activemq-console/src/main/java/org/apache/activemq/console/filter/AmqMessagesQueryFilter.java, activemq-console/src/main/java/org/apache/activemq/console/formatter/CommandShellOutputFormatter.java
+ activemq-broker/src/main/java/org/apache/activemq/broker/BrokerService.java,
+ assembly/src/release/bin/activemq,
+ activemq-web/src/main/java/org/apache/activemq/web/AjaxListener.java,
+ activemq-http/src/main/java/org/apache/activemq/transport/ws/WSTransportServer.java,
+ activemq-broker/src/main/java/org/apache/activemq/broker/region/group/CachedMessageGroupMap.java, activemq-broker/src/main/java/org/apache/activemq/broker/region/group/CachedMessageGroupMapFactory.java, activemq-broker/src/main/java/org/apache/activemq/broker/region/group/GroupFactoryFinder.java, activemq-broker/src/main/java/org/apache/activemq/broker/region/group/MessageGroupHashBucket.java
+ activemq-osgi/src/main/resources/META-INF/spring.handlers, pom.xml
+ activemq-osgi/src/main/resources/META-INF/spring.handlers, pom.xml
+ pom.xml,
+ assembly/src/release/bin/activemq-admin, assembly/src/release/bin/activemq-admin.bat, assembly/src/release/bin/activemq.bat, assembly/src/release/bin/linux-x86-32/wrapper.conf, assembly/src/release/bin/linux-x86-64/wrapper.conf, assembly/src/release/bin/macosx/wrapper.conf, assembly/src/release/bin/win32/wrapper.conf, assembly/src/release/bin/win64/wrapper.conf
+ activemq-osgi/pom.xml,
+ assembly/src/release/conf/login.config,
+ assembly/src/main/descriptors/common-bin.xml, assembly/src/main/descriptors/unix-bin.xml, assembly/src/main/descriptors/windows-bin.xml, assembly/src/patch/insight-log4j-7.2.0.redhat-024-patched.jar, assembly/src/release/conf/activemq.xml,
+ assembly/src/main/descriptors/common-bin.xml,
+ pom.xml,
+ activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/replicated/ElectingLevelDBStore.scala, activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/replicated/groups/internal/ZooKeeperGroup.scala
+ activemq-runtime-config/src/main/java/org/apache/activemq/plugin/RuntimeConfigurationBroker.java,
+ activemq-console/src/main/java/org/apache/activemq/console/command/StartCommand.java,
+ activemq-console/src/main/java/org/apache/activemq/console/command/DstatCommand.java, activemq-karaf/src/main/resources/OSGI-INF/blueprint/activemq-karaf.xml
+ activemq-spring/pom.xml,
+ pom.xml,
+ pom.xml,
+ activemq-web-console/pom.xml,
+ pom.xml,
+ activemq-web/pom.xml, activemq-web/src/main/java/org/apache/activemq/web/MessageServlet.java, activemq-web/src/main/java/org/apache/activemq/web/WebClient.java,
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AMQPProtocolDiscriminator.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpNioTransport.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpProtocolConverter.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpTransport.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpTransportFilter.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/IAmqpProtocolConverter.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/ResponseHandler.java,
+ activemq-broker/src/main/java/org/apache/activemq/broker/LockableServiceSupport.java,
+ activemq-broker/src/main/java/org/apache/activemq/broker/region/policy/AbortSlowAckConsumerStrategy.java,
+ activemq-broker/src/main/java/org/apache/activemq/broker/region/policy/AbortSlowConsumerStrategy.java,
+ activemq-client/src/main/java/org/apache/activemq/thread/TaskRunnerFactory.java, activemq-client/src/main/java/org/apache/activemq/transport/AbstractInactivityMonitor.java, activemq-client/src/main/java/org/apache/activemq/transport/nio/SelectorManager.java,
+ activemq-spring/src/main/java/org/apache/activemq/spring/Utils.java,
+ activemq-spring/src/main/java/org/apache/activemq/spring/Utils.java,
+ activemq-broker/src/main/java/org/apache/activemq/broker/scheduler/SchedulerBroker.java,
+ activemq-runtime-config/src/main/java/org/apache/activemq/plugin/RuntimeConfigurationBroker.java,
+ assembly/src/release/bin/activemq-admin,
+ activemq-broker/src/main/java/org/apache/activemq/broker/BrokerService.java,
+ activemq-stomp/src/main/java/org/apache/activemq/transport/stomp/ProtocolConverter.java,
+ activemq-client/src/main/java/org/apache/activemq/ActiveMQMessageAuditNoSync.java,
+ pom.xml,
+ activemq-stomp/src/main/java/org/apache/activemq/transport/stomp/ProtocolConverter.java, activemq-stomp/src/main/java/org/apache/activemq/transport/stomp/StompTransportFilter.java
+ activemq-web/src/main/java/org/apache/activemq/web/MessageServlet.java,
+ activemq-broker/src/main/java/org/apache/activemq/advisory/AdvisoryBroker.java, activemq-broker/src/main/java/org/apache/activemq/broker/Broker.java, activemq-broker/src/main/java/org/apache/activemq/broker/BrokerFilter.java, activemq-broker/src/main/java/org/apache/activemq/broker/EmptyBroker.java, activemq-broker/src/main/java/org/apache/activemq/broker/ErrorBroker.java, activemq-broker/src/main/java/org/apache/activemq/broker/MutableBrokerFilter.java, activemq-broker/src/main/java/org/apache/activemq/broker/region/PrefetchSubscription.java, activemq-broker/src/main/java/org/apache/activemq/broker/region/RegionBroker.java, activemq-broker/src/main/java/org/apache/activemq/broker/region/TopicSubscription.java, activemq-broker/src/main/java/org/apache/activemq/broker/util/LoggingBrokerPlugin.java, activemq-broker/src/main/java/org/apache/activemq/broker/util/RedeliveryPlugin.java, activemq-broker/src/main/java/org/apache/activemq/plugin/DiscardingDLQBroker.java
+ activemq-console/src/main/java/org/apache/activemq/console/command/CreateCommand.java,
+ activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/replicated/ElectingLevelDBStore.scala, activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/replicated/MasterElector.scala
+ activemq-rar/src/main/rar/META-INF/ra.xml,
+ activemq-client/src/main/java/org/apache/activemq/util/IdGenerator.java,
+ activemq-http/src/main/java/org/apache/activemq/transport/http/HttpClientTransport.java,
+ activemq-http/src/main/java/org/apache/activemq/transport/http/HttpClientTransport.java,
+ assembly/src/main/descriptors/common-bin.xml,
+ activemq-client/src/main/java/org/apache/activemq/util/IdGenerator.java,
+ pom.xml,
+ activemq-leveldb-store/src/main/java/org/apache/activemq/leveldb/replicated/ReplicatedLevelDBStoreViewMBean.java, activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/replicated/ElectingLevelDBStore.scala, activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/replicated/MasterLevelDBStore.scala, activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/replicated/SlaveLevelDBStore.scala
+ activemq-karaf/src/main/resources/features.xml, activemq-leveldb-store/pom.xml, activemq-osgi/pom.xml, pom.xml
+ activemq-jdbc-store/src/main/resources/META-INF/services/org/apache/activemq/store/jdbc/mysql_connector_java,
+ activemq-web/src/main/java/org/apache/activemq/web/MessageListenerServlet.java,
+ activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/replicated/SlaveLevelDBStore.scala,
+ pom.xml,
+ activemq-camel/src/main/java/org/apache/activemq/camel/component/ActiveMQComponent.java, activemq-camel/src/main/java/org/apache/activemq/camel/component/CamelEndpointLoader.java
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpProtocolConverter.java,
+ activemq-leveldb-store/pom.xml,
+ activemq-jdbc-store/src/main/java/org/apache/activemq/store/jdbc/adapter/DefaultJDBCAdapter.java,
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpProtocolConverter.java,
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpProtocolConverter.java,
+ activemq-leveldb-store/pom.xml, assembly/pom.xml, pom.xml,
+ activemq-spring/pom.xml,
+ activemq-leveldb-store/src/main/java/org/apache/activemq/store/leveldb/ReplicatedLevelDBPersistenceAdapter.java,
+ assembly/pom.xml, assembly/src/main/descriptors/common-bin.xml, assembly/src/release/conf/jetty.xml, pom.xml
+ activemq-leveldb-store/pom.xml, activemq-osgi/pom.xml
+ activemq-broker/src/main/java/org/apache/activemq/broker/region/policy/PolicyEntry.java,
+ activemq-broker/src/main/java/org/apache/activemq/broker/region/DestinationFilter.java,
+ activemq-broker/src/main/java/org/apache/activemq/broker/region/DestinationFilter.java, activemq-broker/src/main/java/org/apache/activemq/broker/region/TopicRegion.java, activemq-broker/src/main/java/org/apache/activemq/broker/region/virtual/VirtualTopicInterceptor.java,
+ activemq-broker/src/main/java/org/apache/activemq/broker/BrokerService.java, activemq-broker/src/main/java/org/apache/activemq/broker/region/cursors/FilePendingMessageCursor.java, activemq-broker/src/main/java/org/apache/activemq/broker/scheduler/SchedulerBroker.java, activemq-jdbc-store/src/main/java/org/apache/activemq/store/jdbc/JDBCPersistenceAdapter.java, activemq-jdbc-store/src/main/java/org/apache/activemq/store/journal/JournalPersistenceAdapter.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/KahaDBStore.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/KahaDBTransactionStore.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/TempKahaDBStore.java, activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/LevelDBStore.scala,
+ activemq-client/src/main/java/org/apache/activemq/command/MessageId.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/MessageIdMarshaller.java
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpProtocolConverter.java, activemq-client/src/main/java/org/apache/activemq/command/ActiveMQMessage.java, activemq-client/src/main/java/org/apache/activemq/command/MessageId.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/KahaDBStore.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/MessageDatabase.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/TempKahaDBStore.java
+ activemq-client/src/main/java/org/apache/activemq/SimplePriorityMessageDispatchChannel.java,
+ activemq-broker/src/main/java/org/apache/activemq/security/SimpleCachedLDAPAuthorizationMap.java,
+ pom.xml,
+ pom.xml,
+ activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/replicated/MasterLevelDBStore.scala,
+ activemq-web-console/src/main/java/org/apache/activemq/web/config/OsgiConfiguration.java,
+ activemq-mqtt/pom.xml,
+ activemq-client/pom.xml, activemq-client/src/main/java/org/apache/activemq/command/CommandTypes.java, activemq-client/src/main/java/org/apache/activemq/command/ConsumerInfo.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ActiveMQBlobMessageMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ActiveMQBytesMessageMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ActiveMQDestinationMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ActiveMQMapMessageMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ActiveMQMessageMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ActiveMQObjectMessageMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ActiveMQQueueMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ActiveMQStreamMessageMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ActiveMQTempDestinationMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ActiveMQTempQueueMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ActiveMQTempTopicMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ActiveMQTextMessageMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ActiveMQTopicMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/BaseCommandMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/BaseDataStreamMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/BrokerIdMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/BrokerInfoMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ConnectionControlMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ConnectionErrorMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ConnectionIdMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ConnectionInfoMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ConsumerControlMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ConsumerIdMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ConsumerInfoMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ControlCommandMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/DataArrayResponseMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/DataResponseMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/DestinationInfoMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/DiscoveryEventMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ExceptionResponseMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/FlushCommandMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/IntegerResponseMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/JournalQueueAckMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/JournalTopicAckMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/JournalTraceMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/JournalTransactionMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/KeepAliveInfoMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/LastPartialCommandMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/LocalTransactionIdMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/MarshallerFactory.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/MessageAckMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/MessageDispatchMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/MessageDispatchNotificationMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/MessageIdMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/MessageMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/MessagePullMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/NetworkBridgeFilterMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/PartialCommandMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ProducerAckMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ProducerIdMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ProducerInfoMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/RemoveInfoMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/RemoveSubscriptionInfoMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ReplayCommandMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ResponseMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/SessionIdMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/SessionInfoMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/ShutdownInfoMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/SubscriptionInfoMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/TransactionIdMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/TransactionInfoMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/WireFormatInfoMarshaller.java, activemq-client/src/main/java/org/apache/activemq/openwire/v10/XATransactionIdMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ActiveMQBlobMessageMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ActiveMQBytesMessageMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ActiveMQDestinationMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ActiveMQMapMessageMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ActiveMQMessageMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ActiveMQObjectMessageMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ActiveMQQueueMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ActiveMQStreamMessageMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ActiveMQTempDestinationMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ActiveMQTempQueueMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ActiveMQTempTopicMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ActiveMQTextMessageMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ActiveMQTopicMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/BaseCommandMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/BaseDataStreamMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/BrokerIdMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/BrokerInfoMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ConnectionControlMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ConnectionErrorMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ConnectionIdMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ConnectionInfoMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ConsumerControlMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ConsumerIdMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ConsumerInfoMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ControlCommandMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/DataArrayResponseMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/DataResponseMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/DestinationInfoMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/DiscoveryEventMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ExceptionResponseMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/FlushCommandMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/IntegerResponseMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/JournalQueueAckMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/JournalTopicAckMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/JournalTraceMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/JournalTransactionMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/KeepAliveInfoMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/LastPartialCommandMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/LocalTransactionIdMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/MarshallerFactory.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/MessageAckMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/MessageDispatchMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/MessageDispatchNotificationMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/MessageIdMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/MessageMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/MessagePullMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/NetworkBridgeFilterMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/PartialCommandMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ProducerAckMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ProducerIdMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ProducerInfoMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/RemoveInfoMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/RemoveSubscriptionInfoMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ReplayCommandMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ResponseMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/SessionIdMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/SessionInfoMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/ShutdownInfoMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/SubscriptionInfoMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/TransactionIdMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/TransactionInfoMarshaller.java, activemq-openwire-legacy/src/main/java/org/apache/activemq/openwire/v8/WireFormatInfoMarshaller.java
+ activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/LevelDBStore.scala,
+ activemq-leveldb-store/src/main/java/org/apache/activemq/leveldb/replicated/dto/LogWrite.java, activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/replicated/ElectingLevelDBStore.scala, activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/replicated/MasterLevelDBClient.scala, activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/replicated/MasterLevelDBStore.scala, activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/replicated/SlaveLevelDBStore.scala,
+ activemq-broker/src/main/java/org/apache/activemq/network/DemandSubscription.java,
+ activemq-mqtt/pom.xml,
+ activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/DBManager.scala, activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/LevelDBClient.scala, activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/LevelDBStore.scala,
+ activemq-broker/src/main/java/org/apache/activemq/broker/region/Queue.java,
+ activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/LevelDBClient.scala, activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/RecordLog.scala, activemq-leveldb-store/src/main/scala/org/apache/activemq/leveldb/replicated/ReplicationSupport.scala,
+ assembly/src/sample-conf/activemq-leveldb-replicating.xml,
+ activemq-console/src/main/java/org/apache/activemq/console/command/CreateCommand.java,
+ activemq-client/src/main/java/org/apache/activemq/ActiveMQConnectionFactory.java,
+ activemq-karaf/src/main/resources/features.xml,
+ activemq-osgi/pom.xml,
+ activemq-pool/src/main/java/org/apache/activemq/pool/PooledConnectionFactory.java,
+ activemq-broker/src/main/java/org/apache/activemq/broker/BrokerService.java,
+ activemq-broker/src/main/java/org/apache/activemq/network/DemandForwardingBridgeSupport.java,
+ activemq-all/pom.xml, activemq-karaf/src/main/resources/features.xml, activemq-web-console/pom.xml,
+ activemq-all/pom.xml, activemq-karaf/src/main/resources/features.xml, activemq-web-console/pom.xml,
+ activemq-broker/src/main/java/org/apache/activemq/network/DemandForwardingBridgeSupport.java,
+ activemq-broker/src/main/java/org/apache/activemq/network/DemandForwardingBridgeSupport.java,
+ activemq-client/src/main/java/org/apache/activemq/command/NetworkBridgeFilter.java,
+ activemq-broker/src/main/java/org/apache/activemq/broker/jmx/SubscriptionView.java, activemq-broker/src/main/java/org/apache/activemq/broker/jmx/SubscriptionViewMBean.java, activemq-web-console/src/main/webapp/queueConsumers.jsp,
+ pom.xml,
+ activemq-tooling/activemq-maven-plugin/src/main/java/org/apache/activemq/maven/BrokerMojo.java,
+ activemq-karaf/src/main/resources/META-INF/spring.schemas, activemq-osgi/pom.xml, activemq-osgi/src/main/resources/META-INF/spring.schemas, pom.xml
+ assembly/src/main/descriptors/common-bin.xml,
+ activemq-osgi/pom.xml, activemq-spring/pom.xml
+ activemq-broker/src/main/java/org/apache/activemq/broker/jmx/BrokerMBeanSupport.java, activemq-broker/src/main/java/org/apache/activemq/broker/jmx/PersistenceAdapterViewMBean.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/KahaDBPersistenceAdapter.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/MessageDatabase.java
+ activemq-broker/src/main/java/org/apache/activemq/broker/region/BaseDestination.java, activemq-broker/src/main/java/org/apache/activemq/broker/region/Destination.java, activemq-broker/src/main/java/org/apache/activemq/broker/region/DestinationFilter.java,
+ activemq-blueprint/pom.xml,
+ pom.xml,
+ pom.xml,
+ activemq-broker/src/main/java/org/apache/activemq/broker/scheduler/SchedulerBroker.java,
+ activemq-broker/src/main/java/org/apache/activemq/broker/PublishedAddressPolicy.java, activemq-broker/src/main/java/org/apache/activemq/broker/TransportConnector.java
+ activemq-broker/src/main/java/org/apache/activemq/util/IOHelper.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/MultiKahaDBPersistenceAdapter.java
+ activemq-leveldb-store/pom.xml, pom.xml
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpProtocolConverter.java, activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpTransport.java
+ activemq-web-console/src/main/webapp/WEB-INF/tags/form/short.tag,
+ activemq-console/src/main/java/org/apache/activemq/console/command/AbstractJmxCommand.java, activemq-run/pom.xml, assembly/src/main/descriptors/common-bin.xml, assembly/src/release/bin/activemq, assembly/src/release/bin/activemq-admin, assembly/src/release/bin/activemq-admin.bat, assembly/src/release/bin/activemq.bat, assembly/src/release/bin/linux-x86-32/wrapper.conf, assembly/src/release/bin/linux-x86-64/wrapper.conf, assembly/src/release/bin/macosx/wrapper.conf, assembly/src/release/bin/win32/wrapper.conf, assembly/src/release/bin/win64/wrapper.conf
+ assembly/src/main/descriptors/common-bin.xml,
+ activemq-broker/src/main/java/org/apache/activemq/broker/region/Queue.java,
+ activemq-broker/src/main/java/org/apache/activemq/broker/region/Queue.java,
+ activemq-amq-store/src/main/java/org/apache/activemq/store/amq/AMQPersistenceAdapter.java, activemq-amq-store/src/main/java/org/apache/activemq/store/kahadaptor/KahaPersistenceAdapter.java
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/ActiveMQJMSVendor.java,
+ activemq-client/src/main/java/org/apache/activemq/command/ActiveMQMessage.java,
+ activemq-core/pom.xml,
+ activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/disk/journal/DataFile.java,
+ activemq-broker/src/main/java/org/apache/activemq/security/AuthorizationEntry.java, activemq-kahadb-store/src/main/java/org/apache/activemq/store/kahadb/FilteredKahaDBPersistenceAdapter.java
+ activemq-client/src/main/java/org/apache/activemq/filter/DestinationMapEntry.java,
+ activemq-broker/src/main/java/org/apache/activemq/advisory/AdvisoryBroker.java,
+ activemq-broker/src/main/java/org/apache/activemq/broker/jmx/StatusView.java, activemq-broker/src/main/java/org/apache/activemq/broker/jmx/StatusViewMBean.java
+ activemq-client/src/main/java/org/apache/activemq/util/MarshallingSupport.java,
+ activemq-client/src/main/java/org/apache/activemq/TransportLoggerSupport.java,
+ activemq-broker/src/main/java/org/apache/activemq/broker/BrokerService.java, activemq-broker/src/main/java/org/apache/activemq/broker/jmx/ManagedRegionBroker.java, activemq-broker/src/main/java/org/apache/activemq/broker/jmx/OpenTypeSupport.java, activemq-broker/src/main/java/org/apache/activemq/broker/jmx/StatusEvent.java, activemq-broker/src/main/java/org/apache/activemq/broker/jmx/StatusView.java, activemq-broker/src/main/java/org/apache/activemq/broker/jmx/StatusViewMBean.java
+ activemq-amqp/pom.xml,
+ activemq-web-console/pom.xml, activemq-web-console/src/main/webapp/WEB-INF/jspf/headertags.jspf, activemq-web-console/src/main/webapp/decorators/main.jsp, activemq-web-console/src/main/webapp/decorators/panel.jsp, activemq-web-console/src/main/webapp/decorators/printable.jsp,
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/transform/DroppingWritableBuffer.java,
+ activemq-amqp/src/main/java/org/apache/activemq/transport/amqp/AmqpProtocolConverter.java,
+ activemq-core/pom.xml,
